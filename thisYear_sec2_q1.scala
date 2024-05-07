@@ -1,17 +1,17 @@
 package Q2
 
 object thisYear_sec2_q1 {
-  def iden(x:Int,l:List[Int => Int],ans:Int => Int,fans:Int):Int =>Int ={
+  def iden(x:Int,l:List[Int => Int],ans:Int => Int,best:Int):Int =>Int ={
     if(l.isEmpty){
       return ans
     }
     val f=l.head
     val result = f(x)
-    if(result<fans){
+    if(result<best){
       iden(x,l.tail,f,result)
     }
     else{
-      iden(x,l.tail,ans,fans)
+      iden(x,l.tail,ans,best)
     }
 
   }
