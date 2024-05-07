@@ -39,7 +39,7 @@ int main(int argc, char** argv)
 
 	// The Input grammar
 
-    // FIX GRAMMAR HERE !!!!!!!!!!!!!!!!!!!!
+    // INPUT GRAMMAR HERE !!!!!!!!!!!!!!!!!!!!
 
 
 	strcpy(production[0], "E=FT");
