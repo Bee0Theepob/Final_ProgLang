@@ -28,9 +28,6 @@ object thisYear_sec2_q2 {
 
   def difference(l1: List[Any], l2: List[Any]): List[Any] = {
   return tailDiff(l1,l2,List())
-
-
-
   }
 
   def test01(): Unit = {

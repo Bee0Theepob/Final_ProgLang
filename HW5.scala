@@ -36,6 +36,6 @@ object HW5 {
   }
 
   def main(args: Array[String]): Unit = {
-    println(mergesort(List(5,7,8,9,5,4,1,2,5,87,4,6,69,6,9,69,6,9,6)))
+    println(mergesort(List(5,7,8,9,5,4,1,2,5,87,4,6,69,6,9,69,6,9,6,112)))
   }
 }

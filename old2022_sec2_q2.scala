@@ -1,7 +1,7 @@
 package Q2
 
 
-object sec2_q2_old2022 {
+object old2022_sec2_q2 {
   def exist(x: Any, l: List[Any]):Boolean = {
     if(l.isEmpty) return false
     if(x == l.head) return true

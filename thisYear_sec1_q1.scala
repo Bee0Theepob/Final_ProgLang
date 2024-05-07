@@ -33,8 +33,7 @@ object thisYear_sec1_q1 {
   }
 
   def sortTwoLists(l1:List[Int],l2:List[Int]): (List[Int],List[Int]) = {
-    val tmp = sort(l1++l2,List())
-    return cut(l1.length,List(),tmp)
+    return cut(l1.length,List(),sort(l1++l2,List()))
   }
   def main(args: Array[String]): Unit = {
 

@@ -1,7 +1,4 @@
 package Q2
-
-
-
 object old2022_sec1_q2 {
   def f1(x:Int):Int ={
     x -1000
